@@ -1,0 +1,1032 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+
+
+}
+
+
+/* font set */
+
+.aboutUs .aboutDetails h1, .foodMenu >h1,.reservation .right>h1,.team >h1,.testimonial>h1{
+    font-family: "Pacifico", cursive;
+    color: #FEA116;
+    font-size: 16px;
+    /* width: 100%; */
+    text-align: center;
+}
+
+span{
+    /* color: #FEA116; */
+    /* margin-top: -50px; */
+    position: relative;
+    top: -8px;
+    padding: 10px;
+    /* left: 5px; */
+    font-family: "Pacifico", cursive;
+    color: #FEA116;
+
+    /* border: 2px solid #FEA116; */
+}
+
+.navMobile{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #0F172B; */
+    color: white;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url(./bg-hero\ 1.png), linear-gradient(rgba(15, 23, 43, 0.98),rgba(15, 23, 43, 0.98));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: 0;
+    background-size: cover;
+    flex-direction: column;
+
+    
+}
+
+
+header{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+
+
+}
+
+header > img{
+   
+    width: 215px;
+    height: 50px;
+   
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+
+    color: white;
+}
+
+
+nav ul li:hover{
+    color: #FEA116;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    width: 78%;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+.container .left article{
+    width: 80%;
+    
+}
+.container .left article h1{
+    color: white;
+    font-size: 52px;
+}
+
+
+
+.container .left article p{
+    padding-top: 20px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.container .left article button{
+    width: 150px;
+    height: 40px;
+    background-color: #FEA116    ;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+.container .right img{
+    width: 300px;
+    height: 300px;
+}
+
+.btn{
+    width: 100px;
+    /* height: 40px; */
+    background-color: #FEA116    ;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+}
+
+.btn:hover{
+    color: white;
+}
+
+
+
+
+
+
+.details{
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.details .detail{
+    width: 30%;
+    height: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-family: "Poppins", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.details .detail h1{
+    font-size:16px;
+    width: 80%;
+    padding: 10px;
+}
+
+.details .detail p{
+    width: 80%;
+    font-size:12px;
+    /* padding: 0 0 0 010px; */
+}
+.details .detail .detailImg{
+
+    width: 80%;
+    text-align: start;
+
+}
+
+
+.details .detail img{
+    /* background-color: red; */
+    width: 35px;
+    height: 35px;
+}
+
+
+.details #detail1{
+    background-color: #FEA116;
+}
+
+
+.aboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+    /* height: 400px; */
+}
+
+
+.aboutUs{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.aboutUs img{
+    padding: 5px;
+}
+.aboutUs .left{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    width: 30%;
+    /* background-color: red; */
+}
+.aboutUs .left .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.aboutUs .left .up{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.aboutUs .smallImg{
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+.aboutUs .bigImg{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.aboutUs .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.aboutUs .right .aboutDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    /* background-color: palegreen; */
+}
+
+.aboutUs .right .aboutDetails h1{
+    font-size: 20px;
+    width: 100%;
+    text-align: start;
+    padding: 20px;
+
+}
+
+.aboutUs .right .aboutDetails h4 {
+    font-size: 40px;
+    text-align: start;
+    /* background-color: aquamarine; */
+    width: 100%;
+    padding: 10px;
+
+}
+
+.aboutUs .right .aboutDetails h4 img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+
+
+.aboutUs .right .aboutDetails .aboutNumbersContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.aboutUs .right .aboutDetails .aboutNumbersContainer .aboutNumbers{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-left: 5px solid #FEA116;
+
+
+}
+
+
+.aboutUs .right .aboutDetails .aboutNumbersContainer .aboutNumbers h2{
+    font-size: 40px;
+    color: #FEA116;
+    position: relative;
+    left: -10%;
+    
+}
+
+
+
+.aboutUs .right .aboutDetails .aboutButton{
+    width: 100%;
+    text-align: start;
+
+}
+    
+
+.aboutUs .right .aboutDetails .aboutButton button{
+    /* width: 100%; */
+    width: 150px;
+    height: 50px;
+    background-color: #FEA116;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    
+
+
+}
+
+
+
+
+.foodMenu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.foodMenu > h1{
+    padding-top: 5%;
+}
+
+.foodMenu > h2{
+    padding-bottom: 2%;
+}
+
+.foodMenu .menuDetails{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodMenu .menuDetails .menuDetail{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.foodMenu .menuDetails .menuDetail img{
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+.foodMenu .menuDetails .menuDetail .menuDetailPara{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    /* background-color: red; */
+
+}
+
+.foodMenu .menuDetails .menuDetail .menuDetailPara p{
+    font-size: 12px;
+
+}
+
+
+.foodMenu .menuDetails .menuDetail .menuDetailPara h1{
+    font-size: 14px;
+}
+
+.foodMenu .menuItemContainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+
+
+}
+
+.foodMenu .menuItemContainer  .menuItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 45%;
+    /* margin: 20px;/ */
+
+}
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails{
+    display: flex;
+    /* width: 70%; */
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails .up{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    
+}
+
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails .up h2{
+    font-size: 14px;
+
+}
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails .up h3{
+    font-size: 14px;
+    color: #FEA116;
+}
+
+
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails .down {
+    padding: 5px;
+}
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails .down p{
+    font-size: 12px;
+
+}
+
+.foodMenu .menuItemContainer .menuItem img{
+    width: 66px;
+    height: 66px;
+
+    
+}
+
+
+.reservation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.reservation .left{
+    width: 50%;
+    /* height: 50%; */
+    height: 600px;
+    background-image: url(./couple-gf770e433f_1280\ 1.png );
+    background-size: cover;
+    background-color: red;
+
+}
+.reservation .right{
+    width: 50%;
+    height: 600px;
+    background-color: #0F172B;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    /* padding-top: 5%; */
+}
+
+.reservation .right h1{
+    color: #FEA116;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.reservation .right h2{
+    color: white;
+    margin: 10px;
+}
+.reservation .right .reservationDetails{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+
+}
+
+.reservation .right .reservationDetails input{
+    width: 39%;
+    margin: 10px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    
+}
+
+
+.reservation .right .reservationDetails button{
+    width: 100%;
+    height: 50px;
+    background-color: #FEA116;
+    color: white;
+    margin: 10px;
+    border: none;
+}
+
+
+#specialRequest{
+    width: 100%;
+    height: 60px;
+}
+
+
+.team{
+    width: 100%;
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+    /* padding-bottom: 10%; */
+
+}
+
+
+
+.team h1{
+    font-size: 16px;
+    color: #FEA116;
+    
+}
+.team .teamMembers{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.team .teamMembers .teamMember{
+    margin: 15px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+} 
+
+.team .teamMembers .teamMember> img{
+    width: 200px;
+    height: 200px;
+}
+
+.team .teamMembers .teamMember .teamMenu{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+
+
+.team .teamMembers .teamMember .teamMenu>img{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+
+.team .teamMembers .teamMember:hover .teamMenu{
+    display: flex;
+    /* transition: 0.5s; */
+}
+.testimonial{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom:10%;
+
+
+}
+
+.testimonial h1{
+    padding: 20px;
+    color: #FEA116;
+    font-size: 16px;
+}
+
+.testimonial .testimonialCards{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.testimonial .testimonialCards .testimonialCard{
+    width: 30%;
+    margin: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+}
+
+.testimonial .testimonialCards .testimonialCard .testimonialImg{
+    width: 100%;
+} 
+.testimonial .testimonialCards .testimonialCard .testimonialImg img{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.testimonial .testimonialCards .testimonialCard .testimonialDetails{
+    width: 100%;
+} 
+
+
+
+.testimonial .testimonialCards .testimonialCard .testimonialDetails img{
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+} 
+
+
+.testimonial .testimonialCards .testimonialCard .testimonialDetails{
+    display: flex;
+    justify-content: start;
+
+    align-items: center;
+    margin: 10px;
+}
+
+.testimonial .testimonialCards .testimonialCard .testimonialDetails .testimonialDetail {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #0F172B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color: gray;
+    padding: 10px;
+}
+
+.footer .footerSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.footer .footerSec .footerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menuu{
+    display: none;
+}
+
+.foodMenu .menuDetails .menuDetail:hover{
+    border-bottom: 2px solid #FEA116;
+    transition: 0.1s;
+}
+
+.main .container .right >img{
+    animation: imgRotate 10.5s linear  infinite;
+}
+
+
+@keyframes imgRotate {
+
+
+    0%{
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+
+    }
+    
+}
+@media (min-width: 1500px) {
+    header{
+        width: 70%;
+    }
+    .container{
+       width: 60%;;
+    }
+
+    .container .left article h1{
+        font-size: 60px;
+
+    }
+    .container .right img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .details{
+        /* width: 70%; */
+    }
+    .details .detail{
+        width:40% ;
+        height: 300px;
+
+    }
+
+    .details .detail h1{
+        font-size: 24px;
+    }
+    .details .detail p{
+        font-size: 20px;
+    }
+    .aboutUs{
+
+    }
+    .aboutUs .left{
+        width: 35%;
+    }
+
+    .aboutUs .left .smallImg{
+        width: 200px;
+        height: 200px;
+    }
+
+    .aboutUs .left .bigImg{
+        width: 300px;
+        height: 300px;
+    }
+    .aboutUs .right .aboutDetails h4{
+        font-size: 50px;
+
+    }
+
+    .aboutUs .right .aboutDetails p{
+        font-size: 24px;
+
+    }
+    
+
+        .aboutUs .right .aboutDetails .aboutNumbersContainer{
+        /* font-size: 30%; */
+    }
+
+    .aboutUs .right .aboutNumbersContainer .aboutNumbers h2{
+        font-size: 60px;
+    }
+
+    .foodMenu h2{
+        font-size: 50px;
+    }
+
+    .foodMenu .menuDetails  {
+        width: 50%;
+    }
+
+    .foodMenu .menuDetails .menuDetail img {
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+
+    }
+    .foodMenu .menuDetails .menuDetail .menuDetailPara p {
+        font-size: 24px;
+
+    }
+
+    .foodMenu .menuDetails .menuDetail .menuDetailPara h1 {
+        font-size: 30px;
+
+    }
+
+    .foodMenu .menuItemContainer .menuItem {
+        height: 150px;
+    }
+    .foodMenu .menuItemContainer .menuItem img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .foodMenu .menuItemContainer .menuItem .menuItemDetails .up h2{
+        font-size: 24px;
+    } 
+
+    .foodMenu .menuItemContainer .menuItem .menuItemDetails .up h3{
+        font-size: 24px;
+    } 
+
+    .foodMenu .menuItemContainer .menuItem .menuItemDetails .down p{
+        font-size: 16px;
+    } 
+
+    
+   }
+
+
+   @media (max-width: 1000px) {
+
+    
+    nav ul{
+        display: none;
+    }
+    .menuu{
+        border: 2px solid #0F172B;
+        padding: 2px;
+        display: block;
+    }
+    .main{
+        height: 1200px;
+    }
+
+    .container{
+        /* margin-top: -200px; */
+        position: relative;
+        top: -10%;
+        flex-direction: column;
+    }
+    .container .left article{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .left article h1{
+        width: 100%;
+        text-align: center;
+    }
+    .container .left article br{
+        display: none;
+    }
+    .container .right{
+        padding: 20px;
+    }
+
+    .details{
+        flex-direction: column;
+    }
+    .details .detail {
+        width: 70%;
+    }
+    .aboutUs{
+        flex-direction: column;
+    }
+    .aboutUs .left .smallImg{
+        width: 100px;
+        height: 100px;
+    }
+    .aboutUs .left .bigImg {
+        width: 200px;
+        height: 200px;
+    }
+    .aboutUs .right{
+        width: 80%;
+    } 
+    .aboutUs .right .aboutNumbersContainer{
+        flex-direction: column;
+    }
+    .foodMenu .menuDetails{
+        width: 80%;
+    }
+    .foodMenu .menuItemContainer{
+        flex-direction: column;
+    }
+    .foodMenu .menuItemContainer .menuItem{
+        width: 100%;
+    }
+
+
+
+    .reservation{
+        flex-direction: column;
+        width: 100%;
+    }
+    .reservation .left{
+        width: 100%;
+    }
+    .reservation .right {
+        width: 100%;
+    }
+
+    .team .teamMembers{
+        flex-direction: column;
+    }
+    .testimonial .testimonialCards{
+        flex-direction: column;
+    }
+    
+    .testimonial .testimonialCards .testimonialCard{
+        width: 80%;
+    }
+
+
+    .aboutUs .right .aboutDetails .aboutNumbersContainer{
+        flex-direction: column;
+    }
+
+    .aboutUs .right .aboutDetails .aboutNumbersContainer .aboutNumbers{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .aboutUs .left{
+        justify-content: center;
+        align-items:center;
+        width: 50%;
+    }
+    header{
+        position: absolute;
+        top: 0;
+    }
+
+
+
+    .container p{
+        text-align: center;
+    }
+
+
+
+
+    .reservation .right{
+
+        justify-content: center;
+        align-items: center;
+    }
+    .reservation .right .reservationDetails{
+        justify-content: center;
+        align-items: center;text-align: center;
+    }
+    
+    .reservation .right .reservationDetails input{
+        width: 100%;
+    }
+
+
+    .team .teamMembers .teamMember {
+        width: 80%;
+    }
+   }
